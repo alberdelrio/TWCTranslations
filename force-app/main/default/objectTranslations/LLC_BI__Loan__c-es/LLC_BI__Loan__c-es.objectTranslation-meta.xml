@@ -607,13 +607,13 @@
         <name>Commercial_Loan_Record_Type</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- This Record Type will Apply to Consumer Loans --></description>
-        <label><!-- Consumer Loan Record Type --></label>
+        <description>Este tipo de registro se aplica a contratos de consumo</description>
+        <label>Contrato consumo</label>
         <name>Consumer_Loan_Record_Type</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- This Record Type will Apply to Government Guaranteed Loans --></description>
-        <label><!-- Government Guaranteed Record Type --></label>
+        <description>Este tipo de registro se aplica a préstamos con garantía gubernamental</description>
+        <label>Garantía gubernamental</label>
         <name>Government_Guaranteed_Record_Type</name>
     </recordTypes>
     <recordTypes>
@@ -759,11 +759,11 @@
         <name>LLC_BI__Borrower_Tree</name>
     </webLinks>
     <webLinks>
-        <label><!-- Change_Product --></label>
+        <label>Cambiar producto</label>
         <name>LLC_BI__Change_Product</name>
     </webLinks>
     <webLinks>
-        <label><!-- Copy_Loan --></label>
+        <label>Copiar contrato</label>
         <name>LLC_BI__Copy_Loan</name>
     </webLinks>
     <webLinks>

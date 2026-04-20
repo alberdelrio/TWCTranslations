@@ -12,8 +12,9 @@
 ## Custom Labels (CAT-A) — Discovery Summary
 
 - **Total labels in org:** 13,546 (queried via Tooling API)
-- **Items matched (API name confirmed):** 65 unique labels
-- **Items NOT FOUND (need manual investigation):** 21 tracker IDs (see section below)
+- **Items matched (API name confirmed):** 67 unique labels
+- **Items NOT FOUND (need manual investigation):** 11 tracker IDs (see section below)
+- **Items resolved via nForce__Translation__c:** 7 tracker IDs (import CSV, not SFDX)
 
 ### Matched Custom Labels — Included in es.translation-meta.xml
 
@@ -86,6 +87,8 @@
 | NC-058 | nCino__OP_Stage_Check_Tab_Label | nCino | Verificación de etapa |
 | NC-060 | LLC_BI__DMW_Workspace_Button | LLC_BI | Abrir espacio de trabajo |
 | EV-003 | TWC_Approval_Details_in_Review | (custom) | Detalles de la aprobación |
+| AP-003 | nFORCE__Locked_Record_Message | nFORCE | Este registro está pendiente de aprobación y por tanto se encuentra bloqueado |
+| CR-021 | LLC_BI__Relationship | LLC_BI | Relación |
 
 ---
 
@@ -149,8 +152,8 @@ All files are in `force-app/main/default/objectTranslations/` and have been upda
 |--------------|-------------|---------------|--------|
 | Commercial_Loan_Record_Type | Contract Loan Record Type | Contrato | **TRANSLATED** |
 | Receivable_Loan_Record_Type | Receivable Loan Record Type | Derecho de cobro | **TRANSLATED** |
-| Consumer_Loan_Record_Type | Consumer Loan Record Type | — | Not in scope |
-| Government_Guaranteed_Record_Type | Government Guaranteed Record Type | — | Not in scope |
+| Consumer_Loan_Record_Type | Consumer Loan Record Type | Contrato consumo | **TRANSLATED** |
+| Government_Guaranteed_Record_Type | Government Guaranteed Record Type | Garantía gubernamental | **TRANSLATED** |
 | Guidance_Line_Record_Type | Guidance Line Record Type | — | Not in scope |
 | Guidance_LOC_Sub_Loan_Record_Type | Guidance LOC Sub Loan Record Type | — | Not in scope |
 | LLC_BI__Start | Start | — | Not in scope |
@@ -215,12 +218,12 @@ Approval platform messages (Approve, Reject, "pending approval and locked") are 
 | TWC_Change_Product | Cambio de Producto | Cambio de Producto | Already existed |
 | TWC_DownloadDocuments | Descargar Documentos | Descargar Documentos | Already existed |
 
-### WebLinks (NOT translated — managed package, use TWB)
+### WebLinks
 
-| API Name | English Label | Notes |
-|----------|--------------|-------|
-| LLC_BI__Change_Product | Change Product | Managed — use Translation Workbench |
-| LLC_BI__Copy_Loan | Copy Loan | Managed |
+| API Name | English Label | Spanish Label | Status |
+|----------|--------------|---------------|--------|
+| LLC_BI__Change_Product | Change Product | Cambiar producto | **TRANSLATED** |
+| LLC_BI__Copy_Loan | Copy Loan | Copiar contrato | **TRANSLATED** |
 | LLC_BI__Credit_Memo | Credit Memo | Managed |
 | LLC_BI__Decline_Loan | Decline Loan | Managed |
 | LLC_BI__DocuSign | DocuSign | Managed |
@@ -252,12 +255,26 @@ Approval platform messages (Approve, Reject, "pending approval and locked") are 
 | Product_Line_Names | 5 | All empty |
 | Role_Names | 9 | All empty |
 
+### Detailed Discovery (928 UI-relevant records)
+
+| Feature | Total | Empty | Translated |
+|---------|-------|-------|------------|
+| Section_Names | 355 | 351 | 4 |
+| Route_Names | 273 | 270 | 3 |
+| Screen_Names | 262 | 261 | 1 |
+| Product_Names | 16 | 14 | 2 |
+| Product_Type_Names | 8 | 8 | 0 |
+| Product_Line_Names | 5 | 5 | 0 |
+| Role_Names | 9 | 9 | 0 |
+
 ### Key Findings
 
 1. **Connection Roles are fully translated** — 28 records with Spanish values (e.g., "Empresa cuya tesorería es gestionada por", "Director de Compras")
-2. **Route_Names, Screen_Names, Section_Names** — 890 records exist but ALL have empty Translated_Text. These include critical UI elements: "Borrowing Structure", "Submit for Approval", "Loan Structuring", etc.
-3. **Product translations** — Only 2 of 16 Product_Names translated ("Derecho de cobro - Factura", "Derecho de cobro - Pagaré")
-4. **Action needed:** Use nCino Translation Exporter UI to populate the empty Translated_Text values for Route/Screen/Section names.
+2. **Route_Names, Screen_Names, Section_Names** — 918 empty out of 928 total. These include critical UI elements.
+3. **14 records matched to TWC PDF items** — ready for import via `twc_ncino_translations_to_import.csv`
+4. **Product translations** — Only 2 of 16 Product_Names translated ("Derecho de cobro - Factura", "Derecho de cobro - Pagaré"). Factoring and Confirming ready in import CSV.
+5. **Full review CSV** — `twc_ncino_translations_full_review.csv` has all 918 empty records for Alberto/VASS to review
+6. **Detailed report** — see `twc_ncino_translation_findings.md` for import instructions
 
 ---
 
@@ -270,31 +287,37 @@ Approval platform messages (Approve, Reject, "pending approval and locked") are 
 
 ---
 
-## Items NOT FOUND in Custom Labels (needs investigation)
+## Items Resolved via nForce__Translation__c (Data Import Wizard)
 
-These tracker IDs had no matching Custom Label in the org. They may be LWC component strings, layout section names, or nForce__Translation__c records.
+These items were NOT Custom Labels but WERE found as nForce Translation records. Import via `twc_ncino_translations_to_import.csv`.
+
+| Tracker ID | English Text | Spanish | nForce Record ID | Feature |
+|-----------|-------------|---------|-----------------|---------|
+| NC-011 | Pricing Conditions | Condiciones de precio | a4AAU000003QowX2AS | Route_Names |
+| NC-014/NC-039 | Guarantee | Garantía | a4AAU000003Qp8F2AS + 2 more | Section/Route/Screen_Names |
+| NC-029/EV-002 | Approvals | Aprobaciones | a4AAU000003QowM2AS | Route_Names |
+| PRD-003 | Loan | Contrato | a4AAU000003Qots2AC | Route_Names |
+| REL-009 | DocuSign | DocuSign | a4AAU000003Qov72AC | Route_Names |
+
+---
+
+## Items NOT FOUND Anywhere (likely LWC component strings)
+
+These tracker IDs have no matching Custom Label, nForce Translation record, or field translation. They are likely hardcoded in nCino LWC components or TWC custom components. Flag for nCino Support.
 
 | Tracker ID | English Text | Proposed Spanish | Investigation Notes |
 |-----------|-------------|-----------------|---------------------|
-| PRD-003 | Loan (column header) | Contrato | Likely object label via caseValues |
-| CR-009 | Product Package Name | Nombre del Financiación Multiproductos | May be field reference |
-| CR-021 | Relationship (product package field) | Relación | Generic term, ambiguous context |
-| NC-011 | Pricing Conditions | Condiciones de precio | Likely nCino LWC component |
+| CR-009 | Product Package Name | Nombre del Financiación Multiproductos | May be field reference label |
 | NC-012 | Pricing Condition Fields | Campos de condiciones de precio | Likely nCino LWC component |
-| NC-014 | Guarantee (wizard tab) | Garantía | Tab_Guarantees_Insurances exists but value differs |
 | NC-016 | Minimum Advance per Document | Anticipo mínimo por documento | Likely TWC custom LWC |
-| NC-025 | Contingent Amount | Importe contingente | Not a Custom Label |
-| NC-029 | Approvals (column) | Aprobaciones | Not standalone label |
-| NC-039 | Guarantee (section title) | Garantía | Not a Custom Label |
-| NC-041 | Current LTV | LTV actual | Not a Custom Label |
-| NC-042 | Gross Collateral Value | Valor bruto de garantía | Not a Custom Label |
-| NC-043 | Current Gross Lendable Value | Límite operativo bruto actual | Not a Custom Label |
-| NC-044 | Total Collateral Pledged | Total preasignado | Not a Custom Label |
-| NC-045 | No guarantee has been pledged... | (pending) | Not a Custom Label |
-| NC-056 | Resolved by | Resuelto por | Not a Custom Label |
-| DS-001 | Document Stage (nav item) | Etapa del documento | Not a Custom Label |
-| EV-002 | Approvals (section title) | Aprobaciones | May be layout section name |
-| REL-009 | DocuSign Email | Email DocuSign | LLC_BI__DocuSign_Email_Subject exists but value = "Documents from nCino" |
+| NC-025 | Contingent Amount | Importe contingente | Not found anywhere |
+| NC-041 | Current LTV | LTV actual | Not found anywhere |
+| NC-042 | Gross Collateral Value | Valor bruto de garantía | Not found anywhere |
+| NC-043 | Current Gross Lendable Value | Límite operativo bruto actual | Not found anywhere |
+| NC-044 | Total Collateral Pledged | Total preasignado | Not found anywhere |
+| NC-045 | No guarantee has been pledged... | (pending) | Not found anywhere |
+| NC-056 | Resolved by | Resuelto por | Not found anywhere |
+| DS-001 | Document Stage (nav item) | Etapa del documento | Not found anywhere |
 
 ---
 
@@ -329,11 +352,14 @@ These tracker IDs had no matching Custom Label in the org. They may be LWC compo
 ## Files Modified (this session + previous session)
 
 ### New Files Created
-1. `force-app/main/default/translations/es.translation-meta.xml` — 65 Custom Label translations
+1. `force-app/main/default/translations/es.translation-meta.xml` — 67 Custom Label translations
+2. `twc_ncino_translations_to_import.csv` — 14 nForce Translation records ready for Data Import Wizard
+3. `twc_ncino_translations_full_review.csv` — 918 empty nForce records for manual review
+4. `twc_ncino_translation_findings.md` — nForce Translation detailed discovery report
 
 ### Files Updated (objectTranslations)
-2. `LLC_BI__Loan__c-es/LLC_BI__Loan__c-es.objectTranslation-meta.xml` — nameFieldLabel, quick actions (3), record types (2), validation rule LV04
-3. `Account-es/Account-es.objectTranslation-meta.xml` — record types (3: Business, Household, Lender)
+5. `LLC_BI__Loan__c-es/LLC_BI__Loan__c-es.objectTranslation-meta.xml` — nameFieldLabel, quick actions (3), record types (4), validation rule LV04, webLinks (2)
+6. `Account-es/Account-es.objectTranslation-meta.xml` — record types (3: Business, Household, Lender)
 4. `LLC_BI__Loan__c-es/LLC_BI__AmountOutstanding__c.fieldTranslation-meta.xml`
 5. `LLC_BI__Loan__c-es/LLC_BI__Principal_Balance__c.fieldTranslation-meta.xml`
 6. `LLC_BI__Loan__c-es/LLC_BI__Credit_Approval_Date__c.fieldTranslation-meta.xml`
@@ -353,12 +379,15 @@ These tracker IDs had no matching Custom Label in the org. They may be LWC compo
 
 | Item | Status |
 |------|--------|
-| es.translation-meta.xml (65 Custom Labels) | CREATED locally |
+| es.translation-meta.xml (67 Custom Labels) | CREATED locally |
 | LLC_BI__Loan__c-es field translations (5 files) | UPDATED locally |
 | LLC_BI__Collateral__c-es field translations (7 files) | UPDATED locally |
 | LLC_BI__Loan__c-es objectTranslation (RTs, VRs, buttons) | UPDATED locally |
 | Account-es objectTranslation (RTs) | UPDATED locally |
 | Contact-es field translations | NOT UPDATED (standard fields, SF lang pack) |
+| LLC_BI__Loan__c-es webLinks (Change_Product, Copy_Loan) | UPDATED locally |
+| nForce Translation import CSV (14 records) | CREATED — import via Data Import Wizard |
+| nForce Translation full review CSV (918 records) | CREATED — for manual review |
 | Deployed to org | **NO** |
-| Git committed | **NO** (pending Alberto review) |
-| Git branch | Not yet created |
+| Git committed | **YES** — branch `feature/TWC-UI-translation-es-April2026` |
+| Git pushed | **YES** — https://github.com/alberdelrio/TWCTranslations |

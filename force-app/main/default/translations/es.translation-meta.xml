@@ -329,77 +329,44 @@
         <label>Detalles de la aprobación</label>
         <name>TWC_Approval_Details_in_Review</name>
     </customLabels>
+    <!-- AP-003: This record is pending approval... -->
+    <customLabels>
+        <label>Este registro está pendiente de aprobación y por tanto se encuentra bloqueado</label>
+        <name>nFORCE__Locked_Record_Message</name>
+    </customLabels>
+    <!-- CR-021: Relationship (product package field) -->
+    <customLabels>
+        <label>Relación</label>
+        <name>LLC_BI__Relationship</name>
+    </customLabels>
 
     <!--
     ============================================================
-    ITEMS NOT FOUND AS CUSTOM LABELS — NEEDS MANUAL INVESTIGATION
-    These are likely hardcoded in nCino LWC components or driven
-    by nForce__Translation__c records. Check Translation Workbench
-    "Translated Terms" export or raise nCino Support case.
+    ITEMS NOT FOUND AS CUSTOM LABELS
     ============================================================
 
-    CR-003: "Credit Actionable Loans" → "Contratos con acción crediticia"
-        BLOCKED — FieldSet_Credit_Action driven, not translatable via Custom Labels.
+    BLOCKED (not translatable via any standard mechanism):
+    CR-003: "Credit Actionable Loans" — FieldSet_Credit_Action driven. Raise nCino Support case.
+    CR-004: "All Loans" — FieldSet_Facilities_All driven. Raise nCino Support case.
 
-    CR-004: "All Loans" → "Todos los contratos"
-        BLOCKED — FieldSet_Facilities_All driven, not translatable via Custom Labels.
+    RESOLVED VIA nForce__Translation__c (import CSV, not SFDX):
+    NC-011: "Pricing Conditions" → Route_Names record a4AAU000003QowX2AS
+    NC-014/NC-039: "Guarantee" → Section_Names a4AAU000003Qp8F2AS + Route/Screen records
+    NC-029/EV-002: "Approvals" → Route_Names record a4AAU000003QowM2AS
+    PRD-003: "Loan" → Route_Names record a4AAU000003Qots2AC
+    REL-009: "DocuSign" → Route_Names record a4AAU000003Qov72AC
 
-    CR-009: "Product Package Name" → "Nombre del Financiación Multiproductos"
-        NOT FOUND — May be a field reference label, not a Custom Label.
-
-    CR-021: "Relationship" (product package field) → "Relación"
-        NOT FOUND — Generic term, multiple labels exist but none match this exact context.
-
-    NC-011: "Pricing Conditions" → "Condiciones de precio"
-        NOT FOUND — Likely nCino LWC component string.
-
-    NC-012: "Pricing Condition Fields" → "Campos de condiciones de precio"
-        NOT FOUND — Likely nCino LWC component string.
-
-    NC-014: "Guarantee" (wizard tab) → "Garantía"
-        NOT FOUND — Tab_Guarantees_Insurances exists but value = "Guarantees / Insurances".
-
-    NC-016: "Minimum Advance per Document" → "Anticipo mínimo por documento"
-        NOT FOUND — Likely TWC custom LWC string.
-
-    NC-025: "Contingent Amount" → "Importe contingente"
-        NOT FOUND — Not a Custom Label.
-
-    NC-029: "Approvals" (column) → "Aprobaciones"
-        NOT FOUND — Not found as standalone label.
-
-    NC-039: "Guarantee" (section title) → "Garantía"
-        NOT FOUND — Not a Custom Label.
-
-    NC-041: "Current LTV" → "LTV actual"
-        NOT FOUND — Not a Custom Label.
-
-    NC-042: "Gross Collateral Value" → "Valor bruto de garantía"
-        NOT FOUND — Not a Custom Label.
-
-    NC-043: "Current Gross Lendable Value" → "Límite operativo bruto actual"
-        NOT FOUND — Not a Custom Label.
-
-    NC-044: "Total Collateral Pledged" → "Total preasignado"
-        NOT FOUND — Not a Custom Label.
-
-    NC-045: "No guarantee has been pledged to this loan..." → Spanish pending
-        NOT FOUND — Not a Custom Label.
-
-    NC-056: "Resolved by" → "Resuelto por"
-        NOT FOUND — Not a Custom Label.
-
-    DS-001: "Document Stage" (nav item) → "Etapa del documento"
-        NOT FOUND — Not a Custom Label.
-
-    EV-002: "Approvals" (section title) → "Aprobaciones"
-        NOT FOUND — Not found as standalone Custom Label. May be layout section name.
-
-    REL-009: "DocuSign Email" → "Email DocuSign"
-        PARTIAL — LLC_BI__DocuSign_Email_Blurb exists but value = "Please review the documents from nCino."
-        LLC_BI__DocuSign_Email_Subject = "Documents from nCino" — not matching "DocuSign Email" label.
-
-    PRD-003: "Loan" (column header) → "Contrato"
-        NOT FOUND — Likely driven by object label in caseValues.
+    NOT FOUND (not a Custom Label, not in nForce — likely LWC component strings):
+    CR-009: "Product Package Name" — field reference label, not a Custom Label
+    NC-012: "Pricing Condition Fields" — likely nCino LWC component string
+    NC-016: "Minimum Advance per Document" — likely TWC custom LWC string
+    NC-025: "Contingent Amount" — not found anywhere
+    NC-041: "Current LTV" — not found anywhere
+    NC-042: "Gross Collateral Value" — not found anywhere
+    NC-043: "Current Gross Lendable Value" — not found anywhere
+    NC-044: "Total Collateral Pledged" — not found anywhere
+    NC-045: "No guarantee has been pledged..." — not found anywhere
+    NC-056: "Resolved by" — not found anywhere
+    DS-001: "Document Stage" — not found anywhere
     -->
 </Translations>
