@@ -1,15 +1,15 @@
-Id,nFORCE__Translation_Key__c,nFORCE__Translated_Text__c,tracker_id,nFORCE__Original_Text__c,nFORCE__Feature_Translation__c
-a4AAU000003QowM2AS,es:Route_Names:Eq6r0i/fg8nhWIYLO43ckw==,Aprobaciones,EV-002/NC-029,Approvals,Route_Names
-a4AAU000003QowX2AS,es:Route_Names:6BbgtSpU7rqeGPjFUTOXdA==,Condiciones de precio,NC-011,Pricing Conditions,Route_Names
-a4AAU000003Qp8F2AS,es:Section_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014/NC-039,Guarantee,Section_Names
-a4AAU000003Qovy2AC,es:Route_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014(route),Guarantee,Route_Names
-a4AAU000003Qp0M2AS,es:Screen_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014(screen),Guarantee,Screen_Names
-a4AAU000003Qow92AC,es:Route_Names:Ip6wQIPgb0GfmsSUMp+VfQ==,Condiciones,NC-015/NC-046,Conditions,Route_Names
-a4AAU000003Qots2AC,es:Route_Names:mtgaj4pcemzp4bqbtHWTkQ==,Contrato,PRD-003,Loan,Route_Names
-a4AAU000003Qo2k2AC,es:Product_Type_Names:H+eEoBth0xNQ21/8K1jJug==,Factoring,PRD-FACTORING,Factoring,Product_Type_Names
-a4AAU000003Qo2l2AC,es:Product_Type_Names:RzsCbUOc/QqN1EHawwVBBA==,Confirming,PRD-CONFIRMING,Confirming,Product_Type_Names
-a4AAU000003Qov72AC,es:Route_Names:mDxwGRLkK7o82zOmxYk0FA==,DocuSign,REL-009,DocuSign,Route_Names
-a4AAU000003Qoxs2AC,es:Screen_Names:U7UvjIFuNI9LZhU0JMx6WA==,Resumen de garantías,NC-040(screen),Guarantee Summary,Screen_Names
-a4AAU000003Qp5d2AC,es:Section_Names:U7UvjIFuNI9LZhU0JMx6WA==,Resumen de garantías,NC-040(section),Guarantee Summary,Section_Names
-a4AAU000003Qov62AC,es:Route_Names:aAvgXdoOSnQxupfj8J0UQQ==,Garantías asignadas,COLL(route),Collateral Pledged,Route_Names
-a4AAU000003Qp9U2AS,es:Section_Names:aAvgXdoOSnQxupfj8J0UQQ==,Garantías asignadas,COLL(section),Collateral Pledged,Section_Names
+Id,nFORCE__lookupKey__c,nFORCE__Translation_Key__c,nFORCE__Translated_Text__c,tracker_id,nFORCE__Original_Text__c,nFORCE__Feature_Translation__c
+a4AAU000003QowM2AS,42187798516572383,es:Route_Names:Eq6r0i/fg8nhWIYLO43ckw==,Aprobaciones,EV-002/NC-029,Approvals,Route_Names
+a4AAU000003QowX2AS,42804616539108206,es:Route_Names:6BbgtSpU7rqeGPjFUTOXdA==,Condiciones de precio,NC-011,Pricing Conditions,Route_Names
+a4AAU000003Qp8F2AS,42422791708481041,es:Section_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014/NC-039,Guarantee,Section_Names
+a4AAU000003Qovy2AC,42245228438931405,es:Route_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014(route),Guarantee,Route_Names
+a4AAU000003Qp0M2AS,42971073252301988,es:Screen_Names:g0zTe+lnLrwubTRD6oZ5oA==,Garantía,NC-014(screen),Guarantee,Screen_Names
+a4AAU000003Qow92AC,42167708836709046,es:Route_Names:Ip6wQIPgb0GfmsSUMp+VfQ==,Condiciones,NC-015/NC-046,Conditions,Route_Names
+a4AAU000003Qots2AC,42684230375563446,es:Route_Names:mtgaj4pcemzp4bqbtHWTkQ==,Contrato,PRD-003,Loan,Route_Names
+a4AAU000003Qo2k2AC,42099732490419235,es:Product_Type_Names:H+eEoBth0xNQ21/8K1jJug==,Factoring,PRD-FACTORING,Factoring,Product_Type_Names
+a4AAU000003Qo2l2AC,42582187107821374,es:Product_Type_Names:RzsCbUOc/QqN1EHawwVBBA==,Confirming,PRD-CONFIRMING,Confirming,Product_Type_Names
+a4AAU000003Qov72AC,42413257795763910,es:Route_Names:mDxwGRLkK7o82zOmxYk0FA==,DocuSign,REL-009,DocuSign,Route_Names
+a4AAU000003Qoxs2AC,42953144538674932,es:Screen_Names:U7UvjIFuNI9LZhU0JMx6WA==,Resumen de garantías,NC-040(screen),Guarantee Summary,Screen_Names
+a4AAU000003Qp5d2AC,42923350711482337,es:Section_Names:U7UvjIFuNI9LZhU0JMx6WA==,Resumen de garantías,NC-040(section),Guarantee Summary,Section_Names
+a4AAU000003Qov62AC,42216110392636713,es:Route_Names:aAvgXdoOSnQxupfj8J0UQQ==,Garantías asignadas,COLL(route),Collateral Pledged,Route_Names
+a4AAU000003Qp9U2AS,42005914691382797,es:Section_Names:aAvgXdoOSnQxupfj8J0UQQ==,Garantías asignadas,COLL(section),Collateral Pledged,Section_Names
