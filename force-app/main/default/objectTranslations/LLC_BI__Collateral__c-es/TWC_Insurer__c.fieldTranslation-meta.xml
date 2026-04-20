@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is used to link the Insurer to our Guarantee. Every Guarantee is covered by a single Insurer. --></help>
+    <label><!-- Insurer --></label>
+    <lookupFilter>
+        <errorMessage><!-- The Relationship you are trying to add is not an Insurer. --></errorMessage>
+    </lookupFilter>
+    <name>TWC_Insurer__c</name>
+    <relationshipLabel><!-- Guarantee Mgmt --></relationshipLabel>
+</CustomFieldTranslation>

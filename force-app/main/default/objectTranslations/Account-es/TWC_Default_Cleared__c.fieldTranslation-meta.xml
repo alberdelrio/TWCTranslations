@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enable operations post-risk resolution --></help>
+    <label>Impago Resuelto</label>
+    <name>TWC_Default_Cleared__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Bidirectional link between insurer and TWC risk collaterals --></help>
+    <label>Riesgo Propio - Garantía</label>
+    <name>TWC_Related_Risk_Collateral__c</name>
+    <relationshipLabel><!-- Guarantee Mgmt (Related TWC Risk Collateral) --></relationshipLabel>
+</CustomFieldTranslation>

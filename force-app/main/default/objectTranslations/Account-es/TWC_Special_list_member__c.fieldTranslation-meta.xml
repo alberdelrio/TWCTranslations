@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>¿La entidad forma parte de la lista especial para consideraciones de preasignación de fondos?</help>
+    <label>Miembro Especial de la Lista</label>
+    <name>TWC_Special_list_member__c</name>
+</CustomFieldTranslation>

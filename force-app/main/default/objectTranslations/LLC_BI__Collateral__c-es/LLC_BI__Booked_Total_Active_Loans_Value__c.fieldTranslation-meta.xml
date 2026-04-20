@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Displays the sum of loan amounts from booked pledges with a status of Active or Credit Actioned on the collateral. --></help>
+    <label><!-- Booked Total Active Loans Value --></label>
+    <name>LLC_BI__Booked_Total_Active_Loans_Value__c</name>
+</CustomFieldTranslation>

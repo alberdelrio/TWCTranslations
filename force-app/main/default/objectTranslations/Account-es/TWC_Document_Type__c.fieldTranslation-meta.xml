@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tipo de Documento</label>
+    <name>TWC_Document_Type__c</name>
+    <picklistValues>
+        <masterLabel>CIF</masterLabel>
+        <translation><!-- CIF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DNI</masterLabel>
+        <translation><!-- DNI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Document</masterLabel>
+        <translation><!-- Foreign Document --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NIE</masterLabel>
+        <translation><!-- NIE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

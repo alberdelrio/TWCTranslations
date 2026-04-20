@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Importe máximo de un crédito individual que se puede asignar al compartimento para el deudor.</help>
+    <label>Operación Máxima NNIP</label>
+    <name>TWC_Maximum_Operation_NNIP__c</name>
+</CustomFieldTranslation>

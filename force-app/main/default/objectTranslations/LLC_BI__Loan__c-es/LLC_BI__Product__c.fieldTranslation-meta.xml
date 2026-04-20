@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product --></label>
+    <name>LLC_BI__Product__c</name>
+    <picklistValues>
+        <masterLabel>ACH Origination</masterLabel>
+        <translation><!-- ACH Origination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Checking</masterLabel>
+        <translation><!-- Business Checking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract - Fee Fixed</masterLabel>
+        <translation><!-- Contract - Fee Fixed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract - Fee Tiered</masterLabel>
+        <translation><!-- Contract - Fee Tiered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract - Hybrid Fixed</masterLabel>
+        <translation><!-- Contract - Hybrid Fixed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract - Hybrid Tiered</masterLabel>
+        <translation><!-- Contract - Hybrid Tiered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract - Interest</masterLabel>
+        <translation><!-- Contract - Interest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase</masterLabel>
+        <translation><!-- Purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receivable</masterLabel>
+        <translation><!-- Receivable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Term Loan</masterLabel>
+        <translation><!-- Term Loan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsecured Line of Credit</masterLabel>
+        <translation><!-- Unsecured Line of Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working Capital</masterLabel>
+        <translation><!-- Working Capital --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Importe máximo que se puede asignar a un compartimento para el deudor.</help>
+    <label>Importe Concedido NNIP</label>
+    <name>TWC_Grant_Amount_NNIP__c</name>
+</CustomFieldTranslation>

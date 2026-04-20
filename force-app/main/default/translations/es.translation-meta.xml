@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- CAT-A: Custom Label Translations — TWC UI Translation Sprint April 2026 -->
+    <!-- Generated from Tooling API query of 13,546 labels. 65 unique entries. -->
+    <!-- Labels NOT FOUND are listed at the bottom as comments for manual investigation. -->
+
+    <!-- NC-027: Actions -->
+    <customLabels>
+        <label>Acciones</label>
+        <name>LLC_BI__Actions</name>
+    </customLabels>
+    <!-- NC-020: Add relationships as borrowers... -->
+    <customLabels>
+        <label>Añade relaciones como prestatarios y firmantes autorizados para construir la estructura de participantes del contrato</label>
+        <name>LLC_BI__Add_Borrowers_and_Authorized_Signers</name>
+    </customLabels>
+    <!-- NC-028/NC-030: Add Signer -->
+    <customLabels>
+        <label>Añadir firmante</label>
+        <name>LLC_BI__Add_Signer</name>
+    </customLabels>
+    <!-- PRD-004/NC-023: Borrower Type -->
+    <customLabels>
+        <label>Tipo de interviniente</label>
+        <name>LLC_BI__Borrower_Type</name>
+    </customLabels>
+    <!-- NC-019: Borrowing Structure (panel title) -->
+    <customLabels>
+        <label>Estructura de participantes</label>
+        <name>LLC_BI__Borrowing_Structure</name>
+    </customLabels>
+    <!-- NC-035: Businesses -->
+    <customLabels>
+        <label>Empresas</label>
+        <name>LLC_BI__Businesses</name>
+    </customLabels>
+    <!-- NC-018: Continue -->
+    <customLabels>
+        <label>Continuar</label>
+        <name>LLC_BI__Button_Continue</name>
+    </customLabels>
+    <!-- NC-050: In Progress -->
+    <customLabels>
+        <label>En progreso</label>
+        <name>LLC_BI__Checklist_In_Progress</name>
+    </customLabels>
+    <!-- NC-017/NC-059: Cancel -->
+    <customLabels>
+        <label>Cancelar</label>
+        <name>LLC_BI__Col_Admin_Cancel_Button</name>
+    </customLabels>
+    <!-- NC-040: Guarantee Summary / Collateral Summary -->
+    <customLabels>
+        <label>Resumen de garantías</label>
+        <name>LLC_BI__Collateral_Summary</name>
+    </customLabels>
+    <!-- PRD-005/CR-006: Loan Number -->
+    <customLabels>
+        <label>Número de contrato</label>
+        <name>LLC_BI__Commercial_Workspace_Column_Header_Loan_Number</name>
+    </customLabels>
+    <!-- NC-022: Click a link to navigate... -->
+    <customLabels>
+        <label>Haz clic en el enlace para navegar al Contacto o Registro de Relación correspondiente</label>
+        <name>LLC_BI__Commercial_Workspace_Navigate_To_Relationship</name>
+    </customLabels>
+    <!-- REL-010: Connection Role -->
+    <customLabels>
+        <label>Rol de conexión</label>
+        <name>LLC_BI__Connection_Role</name>
+    </customLabels>
+    <!-- NC-024: Contingent Type -->
+    <customLabels>
+        <label>Tipo de contingencia</label>
+        <name>LLC_BI__Contingent_Type</name>
+    </customLabels>
+    <!-- REL-003/NC-052: Name -->
+    <customLabels>
+        <label>Nombre</label>
+        <name>LLC_BI__Convert_Product_Package_Name_Field</name>
+    </customLabels>
+    <!-- NC-006: Product Line -->
+    <customLabels>
+        <label>Línea de producto</label>
+        <name>LLC_BI__Create_Relationship_Product_Line</name>
+    </customLabels>
+    <!-- CR-013: Credit Action -->
+    <customLabels>
+        <label>Acción crediticia</label>
+        <name>LLC_BI__Credit_Action_Credit_Action</name>
+    </customLabels>
+    <!-- CR-012: Current Action -->
+    <customLabels>
+        <label>Acción actual</label>
+        <name>LLC_BI__Credit_Action_Current_Action</name>
+    </customLabels>
+    <!-- CR-011: Credit Action Details -->
+    <customLabels>
+        <label>Detalle de la acción crediticia</label>
+        <name>LLC_BI__Credit_Action_Details</name>
+    </customLabels>
+    <!-- CR-019: Existing Product Package -->
+    <customLabels>
+        <label>Financiación Multiproducto actual</label>
+        <name>LLC_BI__Credit_Action_Existing_Product_Package</name>
+    </customLabels>
+    <!-- CR-018: New Product Package -->
+    <customLabels>
+        <label>Nueva Financiación Multiproducto</label>
+        <name>LLC_BI__Credit_Action_New_Product_Package</name>
+    </customLabels>
+    <!-- CR-014: Review Type -->
+    <customLabels>
+        <label>Tipo de revisión</label>
+        <name>LLC_BI__Credit_Action_Review_Type</name>
+    </customLabels>
+    <!-- CR-017: Select Product Package -->
+    <customLabels>
+        <label>Seleccionar Financiación Multiproducto</label>
+        <name>LLC_BI__Credit_Action_Select_Product_Package</name>
+    </customLabels>
+    <!-- CR-010: Credit Actions (panel) -->
+    <customLabels>
+        <label>Acciones crediticias</label>
+        <name>LLC_BI__Credit_Action_Title</name>
+    </customLabels>
+    <!-- NC-060: Open Workspace -->
+    <customLabels>
+        <label>Abrir espacio de trabajo</label>
+        <name>LLC_BI__DMW_Workspace_Button</name>
+    </customLabels>
+    <!-- NC-051: Exception -->
+    <customLabels>
+        <label>Excepción</label>
+        <name>LLC_BI__Exception</name>
+    </customLabels>
+    <!-- REL-004: Category -->
+    <customLabels>
+        <label>Categoría</label>
+        <name>LLC_BI__Fee_Category_Column_Header</name>
+    </customLabels>
+    <!-- NC-034: Individuals -->
+    <customLabels>
+        <label>Personas físicas</label>
+        <name>LLC_BI__Individuals</name>
+    </customLabels>
+    <!-- NC-010: Information -->
+    <customLabels>
+        <label>Información</label>
+        <name>LLC_BI__Info</name>
+    </customLabels>
+    <!-- NC-008: Product -->
+    <customLabels>
+        <label>Producto</label>
+        <name>LLC_BI__Loan_PickList_Product</name>
+    </customLabels>
+    <!-- PRD-006: Stage -->
+    <customLabels>
+        <label>Etapa</label>
+        <name>LLC_BI__Loan_PickList_Stage</name>
+    </customLabels>
+    <!-- REL-002: Status -->
+    <customLabels>
+        <label>Estado</label>
+        <name>LLC_BI__Loan_PickList_Status</name>
+    </customLabels>
+    <!-- PRD-001: Loan Products -->
+    <customLabels>
+        <label>Derechos de Cobro</label>
+        <name>LLC_BI__Loan_Products</name>
+    </customLabels>
+    <!-- NC-004: Expand / Collapse Loan Stage History -->
+    <customLabels>
+        <label>Expandir / Contraer historial de etapas del contrato</label>
+        <name>LLC_BI__Loan_Stage_History_Expand_or_Collapse</name>
+    </customLabels>
+    <!-- CR-007: Maturity Date -->
+    <customLabels>
+        <label>Fecha de vencimiento</label>
+        <name>LLC_BI__Maturity_Date</name>
+    </customLabels>
+    <!-- NC-021: Add Entity Involvement -->
+    <customLabels>
+        <label>Añadir participante</label>
+        <name>LLC_BI__MTAS_Add_Entity_Involvement</name>
+    </customLabels>
+    <!-- NC-037: Add Selected Signers -->
+    <customLabels>
+        <label>Añadir firmantes seleccionados</label>
+        <name>LLC_BI__MTAS_Add_Selected_Signers</name>
+    </customLabels>
+    <!-- NC-033: Relationship Type -->
+    <customLabels>
+        <label>Tipo de relación</label>
+        <name>LLC_BI__MTAS_Relationship_Type</name>
+    </customLabels>
+    <!-- NC-038: Warning — must add individual as signer -->
+    <customLabels>
+        <label>Debes añadir una persona física como firmante autorizado de la empresa.</label>
+        <name>LLC_BI__MTAS_Warning_Icon_Text</name>
+    </customLabels>
+    <!-- NC-005: Loan Details -->
+    <customLabels>
+        <label>Detalles del contrato</label>
+        <name>LLC_BI__New_Loan_Details</name>
+    </customLabels>
+    <!-- NC-054: None -->
+    <customLabels>
+        <label>Ninguno</label>
+        <name>LLC_BI__Null_Document_Option_Label</name>
+    </customLabels>
+    <!-- NC-049: Pending -->
+    <customLabels>
+        <label>Pendiente</label>
+        <name>LLC_BI__Pending_Approval_Status</name>
+    </customLabels>
+    <!-- NC-013: Borrowing Structure (wizard tab) -->
+    <customLabels>
+        <label>Estructura</label>
+        <name>LLC_BI__Product_Package_SN_Entity_Involvement</name>
+    </customLabels>
+    <!-- CR-002: Loan Facilities -->
+    <customLabels>
+        <label>Contratos</label>
+        <name>LLC_BI__Product_Package_SN_Loan_Facilities</name>
+    </customLabels>
+    <!-- CR-022: Risk Grade -->
+    <customLabels>
+        <label>Grade</label>
+        <name>LLC_BI__Risk_Grade_Analysis</name>
+    </customLabels>
+    <!-- NC-032: Search Relationships -->
+    <customLabels>
+        <label>Buscar relaciones</label>
+        <name>LLC_BI__Search_Relationships</name>
+    </customLabels>
+    <!-- NC-031: Suggested Relationships -->
+    <customLabels>
+        <label>Relaciones sugeridas</label>
+        <name>LLC_BI__Suggested_Relationships</name>
+    </customLabels>
+    <!-- NC-053: Assignee -->
+    <customLabels>
+        <label>Asignado a</label>
+        <name>LLC_BI__Task_Assignee</name>
+    </customLabels>
+    <!-- PRD-002: Total Exposure Summary -->
+    <customLabels>
+        <label>Resumen de exposición total</label>
+        <name>LLC_BI__Total_Exposure_Summary</name>
+    </customLabels>
+    <!-- CR-016: Apply changes to all selected loans -->
+    <customLabels>
+        <label>Aplicar cambios a todos los contratos seleccionados (1)</label>
+        <name>LLC_BI__Tree_Grid_Edit_Panel_Multi_Edit</name>
+    </customLabels>
+    <!-- NC-026: Contingent Percentage -->
+    <customLabels>
+        <label>Porcentaje contingente</label>
+        <name>nCRED__Contingent_Percentage</name>
+    </customLabels>
+    <!-- NC-002: Stage History -->
+    <customLabels>
+        <label>Historial de etapas</label>
+        <name>nCRED__Loan_Dashboard_Stage_History</name>
+    </customLabels>
+    <!-- CR-005: Loan Name -->
+    <customLabels>
+        <label>Nombre del contrato</label>
+        <name>nCRED__Loan_Name</name>
+    </customLabels>
+    <!-- NC-003: Number of Days -->
+    <customLabels>
+        <label>Número de días</label>
+        <name>nCRED__Number_Of_Days</name>
+    </customLabels>
+    <!-- CR-008: Original Amount -->
+    <customLabels>
+        <label>Importe original</label>
+        <name>nCRED__Original_Amount</name>
+    </customLabels>
+    <!-- NC-057: Processing -->
+    <customLabels>
+        <label>Procesando</label>
+        <name>nCRED__Policy_Exceptions_Auto_Processing</name>
+    </customLabels>
+    <!-- NC-007: Product Type -->
+    <customLabels>
+        <label>Tipo de producto</label>
+        <name>nCRED__Product_Type</name>
+    </customLabels>
+    <!-- NC-001: Loan Dashboard -->
+    <customLabels>
+        <label>Panel del contrato</label>
+        <name>nCRED__Route_Loan_Dashboard</name>
+    </customLabels>
+    <!-- NC-048: All (Smart Checklist) -->
+    <customLabels>
+        <label>Todos</label>
+        <name>nCino__Conditions_All</name>
+    </customLabels>
+    <!-- CR-020/NC-055: Description -->
+    <customLabels>
+        <label>Descripción</label>
+        <name>nCino__Conditions_DefineCondition_Description</name>
+    </customLabels>
+    <!-- NC-036: No suggested relationships found -->
+    <customLabels>
+        <label>No se han encontrado relaciones sugeridas. Usa &quot;Buscar relaciones&quot; para encontrar la relación que deseas añadir.</label>
+        <name>nCino__No_Suggested_Relationships_Message</name>
+    </customLabels>
+    <!-- NC-058: Stage Check -->
+    <customLabels>
+        <label>Verificación de etapa</label>
+        <name>nCino__OP_Stage_Check_Tab_Label</name>
+    </customLabels>
+    <!-- NC-009: Document Generation / Form Generation -->
+    <customLabels>
+        <label>Generación de documentos</label>
+        <name>nFORMS__Form_Generation</name>
+    </customLabels>
+    <!-- CR-001: Collaboration (custom label, no namespace) -->
+    <customLabels>
+        <label>Colaboración</label>
+        <name>Tab_Collaboration</name>
+    </customLabels>
+    <!-- EV-003: Approval Details -->
+    <customLabels>
+        <label>Detalles de la aprobación</label>
+        <name>TWC_Approval_Details_in_Review</name>
+    </customLabels>
+
+    <!--
+    ============================================================
+    ITEMS NOT FOUND AS CUSTOM LABELS — NEEDS MANUAL INVESTIGATION
+    These are likely hardcoded in nCino LWC components or driven
+    by nForce__Translation__c records. Check Translation Workbench
+    "Translated Terms" export or raise nCino Support case.
+    ============================================================
+
+    CR-003: "Credit Actionable Loans" → "Contratos con acción crediticia"
+        BLOCKED — FieldSet_Credit_Action driven, not translatable via Custom Labels.
+
+    CR-004: "All Loans" → "Todos los contratos"
+        BLOCKED — FieldSet_Facilities_All driven, not translatable via Custom Labels.
+
+    CR-009: "Product Package Name" → "Nombre del Financiación Multiproductos"
+        NOT FOUND — May be a field reference label, not a Custom Label.
+
+    CR-021: "Relationship" (product package field) → "Relación"
+        NOT FOUND — Generic term, multiple labels exist but none match this exact context.
+
+    NC-011: "Pricing Conditions" → "Condiciones de precio"
+        NOT FOUND — Likely nCino LWC component string.
+
+    NC-012: "Pricing Condition Fields" → "Campos de condiciones de precio"
+        NOT FOUND — Likely nCino LWC component string.
+
+    NC-014: "Guarantee" (wizard tab) → "Garantía"
+        NOT FOUND — Tab_Guarantees_Insurances exists but value = "Guarantees / Insurances".
+
+    NC-016: "Minimum Advance per Document" → "Anticipo mínimo por documento"
+        NOT FOUND — Likely TWC custom LWC string.
+
+    NC-025: "Contingent Amount" → "Importe contingente"
+        NOT FOUND — Not a Custom Label.
+
+    NC-029: "Approvals" (column) → "Aprobaciones"
+        NOT FOUND — Not found as standalone label.
+
+    NC-039: "Guarantee" (section title) → "Garantía"
+        NOT FOUND — Not a Custom Label.
+
+    NC-041: "Current LTV" → "LTV actual"
+        NOT FOUND — Not a Custom Label.
+
+    NC-042: "Gross Collateral Value" → "Valor bruto de garantía"
+        NOT FOUND — Not a Custom Label.
+
+    NC-043: "Current Gross Lendable Value" → "Límite operativo bruto actual"
+        NOT FOUND — Not a Custom Label.
+
+    NC-044: "Total Collateral Pledged" → "Total preasignado"
+        NOT FOUND — Not a Custom Label.
+
+    NC-045: "No guarantee has been pledged to this loan..." → Spanish pending
+        NOT FOUND — Not a Custom Label.
+
+    NC-056: "Resolved by" → "Resuelto por"
+        NOT FOUND — Not a Custom Label.
+
+    DS-001: "Document Stage" (nav item) → "Etapa del documento"
+        NOT FOUND — Not a Custom Label.
+
+    EV-002: "Approvals" (section title) → "Aprobaciones"
+        NOT FOUND — Not found as standalone Custom Label. May be layout section name.
+
+    REL-009: "DocuSign Email" → "Email DocuSign"
+        PARTIAL — LLC_BI__DocuSign_Email_Blurb exists but value = "Please review the documents from nCino."
+        LLC_BI__DocuSign_Email_Subject = "Documents from nCino" — not matching "DocuSign Email" label.
+
+    PRD-003: "Loan" (column header) → "Contrato"
+        NOT FOUND — Likely driven by object label in caseValues.
+    -->
+</Translations>

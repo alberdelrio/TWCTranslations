@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Importe asignado actualmente al compartimento para el deudor en operaciones NNIP.</help>
+    <label>Importe Utilizado NNIP</label>
+    <name>TWC_Utilized_Amount_NNIP__c</name>
+</CustomFieldTranslation>

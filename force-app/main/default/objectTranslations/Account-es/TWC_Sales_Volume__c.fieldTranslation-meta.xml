@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique el volumen de ventas anual de esta entidad.</help>
+    <label>Volumen de Ventas</label>
+    <name>TWC_Sales_Volume__c</name>
+</CustomFieldTranslation>

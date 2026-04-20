@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estado</label>
+    <name>LLC_BI__Status__c</name>
+    <picklistValues>
+        <masterLabel>Assigned</masterLabel>
+        <translation>Cedido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claimed</masterLabel>
+        <translation>Reclamado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed-Covered</masterLabel>
+        <translation>Cerrado-Incobrable</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed-Paid Off</masterLabel>
+        <translation>Cerrado-Pagado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation>Rechazado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Impago</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hold</masterLabel>
+        <translation><!-- Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation><!-- Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incomplete</masterLabel>
+        <translation>Incompleto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open</masterLabel>
+        <translation>Abierto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overdue</masterLabel>
+        <translation>Retraso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially-Assigned</masterLabel>
+        <translation><!-- Partially-Assigned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase</masterLabel>
+        <translation><!-- Purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Withdrawn</masterLabel>
+        <translation>Desistido</translation>
+    </picklistValues>
+</CustomFieldTranslation>

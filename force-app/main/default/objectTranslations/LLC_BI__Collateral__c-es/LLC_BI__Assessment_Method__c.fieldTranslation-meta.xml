@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assessment Method --></label>
+    <name>LLC_BI__Assessment_Method__c</name>
+    <picklistValues>
+        <masterLabel>Appraisal</masterLabel>
+        <translation><!-- Appraisal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estimate</masterLabel>
+        <translation><!-- Estimate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase Price</masterLabel>
+        <translation><!-- Purchase Price --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

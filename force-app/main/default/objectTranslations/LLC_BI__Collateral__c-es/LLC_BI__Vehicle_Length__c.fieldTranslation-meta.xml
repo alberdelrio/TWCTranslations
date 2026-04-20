@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the foot length of the vehicle. --></help>
+    <label><!-- Vehicle Length --></label>
+    <name>LLC_BI__Vehicle_Length__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Structure Hierarchy --></label>
+    <name>LLC_BI__Structure_Hierarchy__c</name>
+    <picklistValues>
+        <masterLabel>Main</masterLabel>
+        <translation><!-- Main --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Takedown</masterLabel>
+        <translation><!-- Takedown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

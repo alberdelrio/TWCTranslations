@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage --></label>
+    <name>LLC_BI__Stage__c</name>
+    <picklistValues>
+        <masterLabel>Approval</masterLabel>
+        <translation>Aprobación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assessment</masterLabel>
+        <translation>Evaluación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked</masterLabel>
+        <translation>Registro</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complete</masterLabel>
+        <translation>Finalizado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fulfilment</masterLabel>
+        <translation>Formalización</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Assignment</masterLabel>
+        <translation>Pre-Asignación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing</masterLabel>
+        <translation>Procesando</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposal</masterLabel>
+        <translation>Propuesta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase</masterLabel>
+        <translation>Compra</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Servicing</masterLabel>
+        <translation><!-- Servicing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation</masterLabel>
+        <translation>Validación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verification</masterLabel>
+        <translation>Verificación</translation>
+    </picklistValues>
+</CustomFieldTranslation>

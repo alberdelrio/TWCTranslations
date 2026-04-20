@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Referred To --></label>
+    <name>LLC_BI__Referred_To__c</name>
+    <picklistValues>
+        <masterLabel>ABN Amro</masterLabel>
+        <translation><!-- ABN Amro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Barclays</masterLabel>
+        <translation><!-- Barclays --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capitec</masterLabel>
+        <translation><!-- Capitec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lloyds</masterLabel>
+        <translation><!-- Lloyds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natixis</masterLabel>
+        <translation><!-- Natixis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Santander</masterLabel>
+        <translation><!-- Santander --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

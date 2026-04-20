@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The system automatically calculates the amount of lendable value that remains available after accounting for any booked pledges and/or liens on this piece of collateral. --></help>
+    <label><!-- Booked Available Lendable Value --></label>
+    <name>LLC_BI__Booked_Available_Lendable_Value__c</name>
+</CustomFieldTranslation>

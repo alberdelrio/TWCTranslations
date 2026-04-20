@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is the fund liquidation confirmed? --></help>
+    <label>Liquidación de derecho de cobro confirmada</label>
+    <name>TWC_ReceivableLiquidationConfirmed__c</name>
+</CustomFieldTranslation>

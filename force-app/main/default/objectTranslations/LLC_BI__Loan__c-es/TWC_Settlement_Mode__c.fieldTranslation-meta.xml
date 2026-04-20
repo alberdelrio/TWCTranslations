@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Settlement Mode --></label>
+    <name>TWC_Settlement_Mode__c</name>
+    <picklistValues>
+        <masterLabel>No refund of interest or fees</masterLabel>
+        <translation><!-- No refund of interest or fees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With refund of fees, but not of interest</masterLabel>
+        <translation><!-- With refund of fees, but not of interest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With refund of interest and fees</masterLabel>
+        <translation><!-- With refund of interest and fees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With refund of interest, but not of fees</masterLabel>
+        <translation><!-- With refund of interest, but not of fees --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
